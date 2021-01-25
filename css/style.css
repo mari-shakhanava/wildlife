@@ -1,0 +1,128 @@
+:root{
+    /*font-size: 10px;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapperAll{
+    margin: 0 auto;
+}
+
+.wrapperForTwo{
+    height: 779px;
+    background: url("../assets/main_fox.jpg") no-repeat center ;
+    color: #FFFFFF;
+    background-color: #02160b
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.wrapperForTwo_header{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+}
+
+.logoWrapper{
+    width: 223px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoText{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.wrapperForTwo_header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+}
+
+.nav_menu{
+    font-size: 23px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navButton{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navButton:hover{
+    background-color: #CD6326;
+    cursor: default;
+}
+
+.navButton:active {
+    background-color: #8F5613;
+    border: #8F5613;
+}
+
+.navButton_text{
+    line-height: 48px;
+}
+
+.wrapperForTwo_survival{
+    padding-top: 120px;
+}
+
+.h1{
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.survivalText{
+    display: block;
+    width: 274px;
+    height: 108px;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 53px;
+}
+
+.mainButton{
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    margin-top: 48px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.mainButton:hover{
+    background: #E39128;
+    border: #E39128;
+    cursor: default;
+}
+
+.mainButton:active {
+    background-color: #8F5613;
+}
+
+
