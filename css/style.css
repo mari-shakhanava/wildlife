@@ -7,8 +7,10 @@
     margin: 0 auto;
 }
 
+/*Header*/
+
 .wrapperForTwo{
-    height: 779px;
+    height: 780px;
     background: url("../assets/main_fox.jpg") no-repeat center ;
     color: #FFFFFF;
     background-color: #02160b
@@ -91,6 +93,7 @@
     color: #CD6326;
 }
 
+/*Survival*/
 .survivalText{
     display: block;
     width: 274px;
@@ -124,5 +127,76 @@
 .mainButton:active {
     background-color: #8F5613;
 }
+
+/*Latest Articles*/
+.latestArticles{
+    background-color: #cccccc;
+}
+
+.h2{
+    padding-top: 120px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.subtitleH2{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    padding-top: 20px;
+    display: block;
+}
+
+.sliderWrapper{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 1020px;
+}
+
+.slider_images_item{
+    position: relative;
+}
+
+.animalsName{
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    position: absolute;
+    margin: auto;
+    bottom: 79px;
+    left: 0;
+    right: 0;
+
+}
+
+.animalNews{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    display: block;
+    position: absolute;
+    margin: auto;
+    bottom: 42px;
+    left: 0;
+    right: 0;
+}
+
+
+
+
 
 
