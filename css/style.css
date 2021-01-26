@@ -195,7 +195,82 @@
     right: 0;
 }
 
+/*Get Notified section*/
 
+.getNotified{
+  background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3{
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    padding-top: 239px;
+}
+
+.getNotified_form{
+    padding-top: 60px;
+    display: flex;
+    margin-bottom: 240px;
+}
+
+.getNotified_form__box{
+    width: 540px;
+    height: 60px;
+    background-color: transparent;
+    border: solid 1px #666666;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+}
+
+.getNotified_form__btn{
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+   font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    padding: 0;
+    outline: none;
+    border: 1px solid #CD6326;
+    border-radius: 0 5px 5px 0;
+    box-sizing: border-box;
+}
+
+.footerWrapper{
+    background-color: #181617;
+    color: #FFFFFF;
+}
+
+.footerInner{
+    padding: 150px 0 150px 0;
+    background: url("../assets/leaves.jpg") no-repeat center ;
+
+}
+
+.footer_navigation{
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.footer_images{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
