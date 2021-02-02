@@ -5,6 +5,7 @@
 
 .wrapperAll{
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /*Header*/
@@ -19,7 +20,6 @@
 .content{
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .wrapperForTwo_header{
@@ -42,6 +42,8 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .wrapperForTwo_header_nav{
@@ -97,10 +99,12 @@
 
 .navButton_text{
     line-height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
 }
 
 .wrapperForTwo_survival{
-    padding-top: 120px;
+    padding-top: 118px;
 }
 
 .h1{
@@ -241,7 +245,7 @@
 }
 
 .getNotified_form{
-    padding-top: 60px;
+    padding-top: 59px;
     display: flex;
     margin-bottom: 240px;
 }
@@ -262,7 +266,7 @@
     width: 120px;
     height: 60px;
     background: #CD6326;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     line-height: 27px;
     text-align: center;
