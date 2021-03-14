@@ -3,6 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .wrapperAll{
     margin: 0 auto;
     overflow: hidden;
@@ -18,15 +22,14 @@
 }
 
 .content{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .wrapperForTwo_header{
-    width: 1400px;
     display: flex;
     justify-content: space-between;
-    padding-top: 19px;
+    padding-top: 20px;
 }
 
 .logoWrapper{
@@ -104,24 +107,25 @@
 }
 
 .wrapperForTwo_survival{
-    padding-top: 118px;
+    padding-top: 120px;
 }
 
-.h1{
+.titleH1{
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 2px;
     color: #CD6326;
+    text-transform: capitalize;
 }
 
 /*Survival*/
 .survivalText{
     display: block;
     width: 274px;
-    height: 108px;
+    height: 109px;
     font-size: 18px;
     line-height: 27px;
-    padding-top: 53px;
+    padding-top: 51px;
 }
 
 .mainButton{
@@ -155,12 +159,13 @@
     background-color: #cccccc;
 }
 
-.h2{
+.titleDarkh2{
     padding-top: 120px;
     font-size: 48px;
     line-height: 72px;
     text-align: center;
     color: #333333;
+
 }
 
 .subtitleH2{
@@ -170,6 +175,7 @@
     color: #666666;
     padding-top: 20px;
     display: block;
+
 }
 
 .sliderWrapper{
@@ -194,11 +200,13 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    width: 1020px;
+    width: 1023px;
 }
 
 .slider_images_item{
     position: relative;
+    margin-left: 3px;
+
 }
 
 .animalsName{
@@ -211,6 +219,7 @@
     bottom: 79px;
     left: 0;
     right: 0;
+    text-transform: capitalize;
 
 }
 
@@ -231,6 +240,10 @@
 
 .getNotified{
   background-color: #cccccc;
+
+}
+
+.getNotified_inner{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,7 +271,7 @@
     font-size: 23px;
     line-height: 27px;
     color: #666666;
-    padding: 0 0 0 15px;
+    padding: 1px 0 0 13px;
     box-sizing: border-box;
 }
 
@@ -303,7 +316,12 @@
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
+}
 
+.footer_navigation__menu{
+    padding-left: 13px;
+    box-sizing: border-box;
+    width: 488px;
 }
 
 .footer_images{

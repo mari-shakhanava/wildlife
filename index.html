@@ -23,13 +23,13 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="main">
-<div class="wrapperAll">
+
     <div class="wrapperForTwo">
         <header class="wrapperForTwo_header content">
-            <div class="logoWrapper">
-                <a href="#"><img src="assets/logo.svg" alt="logo"></a>
-                <a href="#" class="logoText">Wildlife</a>
-            </div>
+                <a href="#" class="logoWrapper">
+                    <img src="assets/logo.svg" alt="logo">
+                    <span class="logoText">Wildlife</span>
+                </a>
             <nav>
                 <ul class="wrapperForTwo_header_nav">
                     <li><a href="#" class="nav_menu">Blog</a></li>
@@ -40,14 +40,14 @@
             </nav>
         </header>
         <div class="wrapperForTwo_survival content">
-            <h1 class="h1">Survival</h1>
+            <h1 class="titleH1">Survival</h1>
             <p class="survivalText">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
             <button class="mainButton">Donate</button>
         </div>
     </div>
     <div class="latestArticles">
         <div class="content">
-            <h2 class="h2">Latest articles</h2>
+            <h2 class="titleDarkh2">Latest articles</h2>
             <span class="subtitleH2">Breaking news from the wild</span>
             <div class="sliderWrapper">
                 <div class="slider_buttons slider_buttons_left">
@@ -77,39 +77,41 @@
         </div>
     </div>
     <div class="getNotified">
-        <div class="content">
+        <div class="getNotified_inner content">
             <h3 class="h3">Get notified about new amazing articles</h3>
             <form method="post" class="getNotified_form">
                 <label for="email" ></label>
-                <input type="text" id="email" name="getNotified_email" placeholder="Email" class="getNotified_form__box">
-                <input type="submit" value="Send" class="getNotified_form__btn">
+                <input type="email" id="email" name="email" placeholder="Email" class="getNotified_form__box">
+                <input type="submit" name="Send" value="Send" class="getNotified_form__btn">
             </form>
         </div>
     </div>
     <footer class="footerWrapper">
         <div class="footerInner">
             <div class="footer_navigation">
-                <div class="logoWrapper">
-                    <a href="#"><img src="assets/logo.svg" alt="logo"></a>
-                    <a href="#" class="logoText">Wildlife</a>
-                </div>
+                <a href="#" class="logoWrapper">
+                    <img src="assets/logo.svg" alt="logo">
+                    <span class="logoText">Wildlife</span>
+                </a>
                 <nav>
-                    <ul class="wrapperForTwo_header_nav">
+                    <ul class="wrapperForTwo_header_nav footer_navigation__menu">
                         <li><a href="#" class="nav_menu">Articles</a></li>
                         <li><a href="#" class="nav_menu">About us</a></li>
                         <li><a href="#" class="nav_menu">Learn more</a></li>
                     </ul>
                 </nav>
-                <ul class="footer_images">
-                    <li><a href="#" class="share_facebook share"></a></li>
-                    <li><a href="#" class="share_insta share"></a></li>
-                    <li><a href="#" class="share_pinterest share"></a></li>
-                    <li><a href="#" class="share_telega share"></a></li>
-                </ul>
-            </div>
+                <address class="footer_images" >
+                    <ul class="footer_images">
+                        <li><a href="#" class="share_facebook share"></a></li>
+                        <li><a href="#" class="share_insta share"></a></li>
+                        <li><a href="#" class="share_pinterest share"></a></li>
+                        <li><a href="#" class="share_telega share"></a></li>
+                    </ul>
+                </address>
+             </div>
         </div>
     </footer>
-</div>
+
 
 
 </body>
